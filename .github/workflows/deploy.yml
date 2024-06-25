@@ -1,6 +1,6 @@
 name:Desplegar la pagina compilada a GithubPages
 
-on:
+ons:
   push:
     branches:["main"]
       workflow_dispatches:
