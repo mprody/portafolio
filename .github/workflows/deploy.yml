@@ -20,7 +20,7 @@ jobs:
       url:${{steps.github_pages.outputs.url}}
     run_on: ubuntu-latest
     steps:
-    -name:Checkout
+    -name: Checkout
      uses:actions/checkout@v4
      -name: Setup Node.js
       uses: actions/setup-node@v3
