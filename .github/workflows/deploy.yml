@@ -18,7 +18,7 @@ jobs:
     environment:
       name:github-pages
       url:${{steps.github_pages.outputs.url}}
-    runs_on:ubuntu-latest
+    run_on: ubuntu-latest
     step:
     -name:Checkout
      uses:actions/checkout@v4
