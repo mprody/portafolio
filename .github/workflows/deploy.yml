@@ -3,7 +3,7 @@ name: Desplegar la pagina compilada a GithubPages
 on:
   push:
     branches:["main"]
-      workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents:read
