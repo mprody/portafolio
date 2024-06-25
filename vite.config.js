@@ -1,5 +1,5 @@
 import { build, defineConfig } from "vite";
-import* as glob from "glob";
+import * as glob from "glob";
 import {ViteMinifyPlugin} from 'vite-plugin-minify';
 import htmlPurge from 'vite-plugin-purgecss';
 import path,{resolve} from "node:path";
