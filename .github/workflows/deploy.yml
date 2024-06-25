@@ -20,7 +20,7 @@ jobs:
       name:github-pages
       url:${{steps.github_pages.outputs.url}}
     runs_on:ubuntu-latest
-    step:
+    steps:
     -name:Checkout
      uses:actions/checkout@v4
      -name: Setup Node.js
